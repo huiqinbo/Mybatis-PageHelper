@@ -146,6 +146,9 @@ public class Page<E> extends ArrayList<E> {
     public int getEndRow() {
         return endRow;
     }
+    public void setEndRow(int endRow){
+    	this.endRow = endRow;
+    }
 
     public Page<E> setEndRow(int endRow) {
         this.endRow = endRow;
